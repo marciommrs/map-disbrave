@@ -39,7 +39,7 @@ header span {
 }
 
 .content-map {
-  margin: 20px auto;
+  margin: 5px auto;
   width: 80%;
   display: flex;
 }
@@ -61,6 +61,7 @@ header span {
 
 .content-map-select {
   width: 50%;
+  text-align: center;
 }
 
 .content-map-select div {
@@ -107,6 +108,11 @@ header span {
   color: #7f90a0;
   font-size: 40px;
   z-index: -1;
+}
+
+#linkNaoEncontrado {
+  font-style: italic;  
+  color: #ff0000;
 }
 
 #svg-map path { fill:#0094d9 }

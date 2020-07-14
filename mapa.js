@@ -1,0 +1,72 @@
+
+var estados = [
+  {sigla: 'AC', uf: 'Acre', link: 'https://registrodetran.com.br/ap/'},
+  {sigla: 'AL', uf: 'Alagoas', link: ''},
+  {sigla: 'AP', uf: 'Amapá', link: ''},
+  {sigla: 'AM', uf: 'Amazonas', link: ''},
+  {sigla: 'BA', uf: 'Bahia', link: 'https://www.cbtiregistros.com.br/ba'},
+  {sigla: 'CE', uf: 'Ceará', link: ''},
+  {sigla: 'DF', uf: 'Federal', link: ''},
+  {sigla: 'ES', uf: 'Espírito Santo', link: ''},
+  {sigla: 'GO', uf: 'Goiás', link: ''},
+  {sigla: 'MA', uf: 'Maranhão', link: ''},
+  {sigla: 'MT', uf: 'Mato Grosso', link: ''},
+  {sigla: 'MS', uf: 'Mato Grosso do Sul', link: ''},
+  {sigla: 'MG', uf: 'Minas Gerais', link: 'https://sielloregistros.com.br/mg/#/login'},
+  {sigla: 'PA', uf: 'Pará', link: ''},
+  {sigla: 'PB', uf: 'Paraíba', link: 'https://sielloregistros.com.br/pb/#/login'},
+  {sigla: 'PR', uf: 'Paraná', link: 'https://sielloregistros.com/pr/#/login'},
+  {sigla: 'PE', uf: 'Pernambuco', link: 'https://sielloregistros.com/pe/#/login'},
+  {sigla: 'PI', uf: 'Piauí', link: 'https://www.cbtiregistros.com.br/pi'},
+  {sigla: 'RJ', uf: 'Rio de Janeiro', link: 'https://www.cbtiregistros.com.br/rj'},
+  {sigla: 'RN', uf: 'Rio Grande do Norte', link: ''},
+  {sigla: 'RS', uf: 'Rio Grande do Sul', link: ''},
+  {sigla: 'RO', uf: 'Rondônia', link: ''},
+  {sigla: 'RR', uf: 'Roraima', link: ''},
+  {sigla: 'SC', uf: 'Santa Catarina', link: 'https://sielloregistros.com/sc/#/login'},
+  {sigla: 'SP', uf: 'São Paulo', link: 'https://sielloregistros.com/sp/#/login'},
+  {sigla: 'SE', uf: 'Sergipe', link: ''},
+  {sigla: 'TO', uf: 'Tocantins', link: ''},
+];
+
+function getLink(sigla) {
+  const item = estados.find(item => item.sigla === sigla);
+  return item.link;
+}
+
+function handleClick(sigla) {
+  const link = getLink(sigla);
+  if (link) {
+    window.open(link, '_blank');
+  } else {
+    alert(`Link não cadastrado para UF "${sigla}".`);
+  }
+}
+
+function loadSelectUF() {
+  const select = document.querySelector('#states-select');
+
+  // Create options of UFs.
+  var optSelecione = document.createElement('option');
+  optSelecione.innerHTML = 'Selecione...';
+  select.appendChild(optSelecione);
+  for(item of estados) {
+    var opt = document.createElement('option');
+    opt.value = item.link;
+    opt.innerHTML = `${item.sigla} - ${item.uf}`;
+    select.appendChild(opt);
+  }
+
+
+  // Add action for UF seleted.
+  select.addEventListener('change', function() {
+    if (this.value) {
+      window.open(this.value, '_blank');
+      document.querySelector('#linkNaoEncontrado').textContent = '';
+    } else {
+      document.querySelector('#linkNaoEncontrado').textContent = 'Link não cadastrado.';
+    }
+  });
+}
+
+loadSelectUF();
