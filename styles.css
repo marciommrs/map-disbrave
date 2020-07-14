@@ -46,6 +46,7 @@ header span {
 
 .content-map-links {
   width: 50%;
+  text-align: center;
 }
 
 .content-map-links div {
@@ -110,7 +111,7 @@ header span {
   z-index: -1;
 }
 
-#linkNaoEncontrado {
+.msgNaoEncontrado {
   font-style: italic;  
   color: #ff0000;
 }
