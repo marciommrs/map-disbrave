@@ -1,0 +1,118 @@
+body {
+  background: #d7e6f5;
+  font-family: Ubuntu, Roboto, Arial, Helvetica, sans-serif;
+  font: #0d000e;
+}
+
+.box-header {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  width: 20%;
+}
+
+.title-header {
+  width: 80%;
+  text-align: center;
+}
+
+header span {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.content {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-empty {
+  width: 20%;
+}
+
+.content-map {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+}
+
+.content-map-links {
+  width: 50%;
+}
+
+.content-map-links div {
+  font-size: 24px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.content-map-links svg {
+  margin: 5px auto;
+}
+
+
+.content-map-select {
+  width: 50%;
+}
+
+.content-map-select div {
+  font-size: 24px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.custom-select {
+  position: relative;
+  display: block;
+  max-width: 300px;
+  min-width: 180px;
+  margin: 20px auto;
+  border: 1px solid #95b2d0;
+  z-index: 10;
+}
+
+.custom-select select {
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  padding: 12px 55px 15px 15px;
+  font-size: 20px;
+  color: #7f90a0;
+}
+
+.custom-select:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  line-height: 50px;
+  content: "▼";
+  text-align: center;
+  color: #7f90a0;
+  font-size: 40px;
+  z-index: -1;
+}
+
+#svg-map path { fill:#0094d9 }
+#svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+#svg-map a{ text-decoration:none }
+#svg-map a:hover { cursor:pointer; text-decoration:none }
+#svg-map a:hover path{ fill:#003399 !important }
+#svg-map .circle { fill:#66ccff }
+#svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
