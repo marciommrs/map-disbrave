@@ -20,7 +20,7 @@
     {sigla: 'PI', uf: 'Piauí', link: 'https://www.cbtiregistros.com.br/pi'},
     {sigla: 'RJ', uf: 'Rio de Janeiro', link: 'https://www.cbtiregistros.com.br/rj'},
     {sigla: 'RN', uf: 'Rio Grande do Norte', link: ''},
-    {sigla: 'RS', uf: 'Rio Grande do Sul', link: 'https://www.credenciados.detran.rs.gov.br/sca/logon.jsp'},
+    {sigla: 'RS', uf: 'Rio Grande do Sul', link: 'https://www.credenciados.detran.rs.gov.br'},
     {sigla: 'RO', uf: 'Rondônia', link: ''},
     {sigla: 'RR', uf: 'Roraima', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'SC', uf: 'Santa Catarina', link: 'https://sielloregistros.com/#/login'},
