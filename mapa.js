@@ -1,6 +1,6 @@
 
   var estados = [
-    {sigla: 'AC', uf: 'Acre', link: 'https://registrodetran.com.br/ap/'},
+    {sigla: 'AC', uf: 'Acre', link: ''},
     {sigla: 'AL', uf: 'Alagoas', link: ''},
     {sigla: 'AP', uf: 'Amapá', link: ''},
     {sigla: 'AM', uf: 'Amazonas', link: ''},
