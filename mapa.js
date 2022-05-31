@@ -4,7 +4,7 @@
     {sigla: 'AL', uf: 'Alagoas', link: ''},
     {sigla: 'AP', uf: 'Amapá', link: 'https://registrodetran.com.br/ap/'},
     {sigla: 'AM', uf: 'Amazonas', link: ''},
-    {sigla: 'BA', uf: 'Bahea', link: 'https://www.cbtiregistros.com.br/ba'},
+    {sigla: 'BA', uf: 'Bahia', link: 'https://www.naointendo.com.br/'},
     {sigla: 'CE', uf: 'Ceará', link: ''},
     {sigla: 'DF', uf: 'Federal', link: ''},
     {sigla: 'ES', uf: 'Espírito Santo', link: ''},
