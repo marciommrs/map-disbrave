@@ -18,7 +18,7 @@
     {sigla: 'PR', uf: 'Paraná', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'PE', uf: 'Pernambuco', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'PI', uf: 'Piauí', link: 'https://sielloregistros.com/#/login'},
-    {sigla: 'RJ', uf: 'Rio de Janeiro', link: 'https://www.cbtiregistros.com.br/rj'},
+    {sigla: 'RJ', uf: 'Rio de Janeiro', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'RN', uf: 'Rio Grande do Norte', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'RS', uf: 'Rio Grande do Sul', link: 'https://www.credenciados.detran.rs.gov.br'},
     {sigla: 'RO', uf: 'Rondônia', link: 'https://detrannet.detran.ro.gov.br/'},
