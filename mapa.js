@@ -20,7 +20,7 @@
     {sigla: 'PI', uf: 'Piauí', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'RJ', uf: 'Rio de Janeiro', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'RN', uf: 'Rio Grande do Norte', link: 'https://sielloregistros.com/#/login'},
-    {sigla: 'RS', uf: 'Rio Grande do Sul', link: 'https://www.credenciados.detran.rs.gov.br'},
+    {sigla: 'RS', uf: 'Rio Grande do Sul', link: 'https://secweb.procergs.com.br/sng/landing.xhtml?windowId=c9b'},
     {sigla: 'RO', uf: 'Rondônia', link: 'https://detrannet.detran.ro.gov.br/'},
     {sigla: 'RR', uf: 'Roraima', link: 'https://sielloregistros.com/#/login'},
     {sigla: 'SC', uf: 'Santa Catarina', link: 'https://sielloregistros.com/#/login'},
