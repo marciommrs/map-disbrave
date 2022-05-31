@@ -9,7 +9,7 @@
     {sigla: 'DF', uf: 'Federal', link: 'https://getran.detran.df.gov.br/sna/design/index-explorer.jsp'},
     {sigla: 'ES', uf: 'Espírito Santo', link: 'http://detrannet.es.gov.br/'},
     {sigla: 'GO', uf: 'Goiás', link: 'https://portal.detran.go.gov.br/sna/'},
-    {sigla: 'MA', uf: 'Maranhão', link: 'https://sirec.com.br/sirec/login.seam?cid=19501'},
+    {sigla: 'MA', uf: 'Maranhão', link: ''},
     {sigla: 'MT', uf: 'Mato Grosso', link: 'https://www.detrannet.mt.gov.br/ControleAcesso/'},
     {sigla: 'MS', uf: 'Mato Grosso do Sul', link: ''},
     {sigla: 'MG', uf: 'Minas Gerais', link: 'https://sielloregistros.com/#/login'},
